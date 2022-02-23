@@ -2,7 +2,7 @@
 
 Swift code to calculate sun rise and sun setting times based on timezone and latitude and longitude values. 
 
-NOTE: This project is a direct port of python code to Swift code.
+NOTE: This project is a direct port of python code to Swift code. Only the most basic of changes were made to get it to compile in Swift.
 
 Based on
 * [This Gist code][gist]
@@ -48,14 +48,13 @@ Create a Sun object with the latitude and longitude and set timezone offset if n
 	let noon: String = s.solarnoon(when: Date()) //JSON string
 	let setting: String = s.sunset(when: Date()) //JSON string
 
-Written and compiled with XCode Version 13.2.1 (13C100).
+Versions:
+* Written and compiled with XCode Version 13.2.1 (13C100).
+* Written under Swift version of 5.5.2 was used.
 
 ## License
 
-There is a "donut hole" of licenses here. All files but one are under [BSD 2-Clause License][bsd2]. The exception is the [SunData.swift][sun-file] file which seams to be in the [public domain][public-domain].
-
-
-BSD
+There is a "donut hole" of licenses here. All files but one are under [BSD 2-Clause License][bsd2]. The exception is the [SunData.swift][sun-file] file. SunData.swift is based on work from others and that code has no posted license being offered to the internet in an instructional manor, meaning that it is probably in the [public domain][public-domain]. It is this project's believe that any derived work on that file can not be locked down to any license.
 
 [bsd2]: /LICENSE "BSD 2-Clause License"
 [public-domain]: https://en.wikipedia.org/wiki/Public_domain "Public Domain Information"
