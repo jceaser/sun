@@ -16,6 +16,9 @@ Based on
  that would change this.
  
  This file is in the public domain.
+ 
+ https://en.wikipedia.org/wiki/Public_domain
+ 
 */
 
 import Foundation
